@@ -1,0 +1,31 @@
+.place__title {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  margin: 0;
+  flex-basis: calc((100% - 40px) / 2);
+}
+
+@media screen and (max-width: 1279px) {
+  .place__title {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 110%;
+    flex-basis: calc((100% - 28px) / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    flex-basis: 100%;
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

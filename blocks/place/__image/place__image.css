@@ -1,0 +1,26 @@
+.place__image {
+  flex-basis: calc((100% - 40px) / 2);
+  max-width: calc((100% - 40px) / 2);
+}
+
+@media screen and (max-width: 1279px) {
+  .place__image {
+    flex-basis: calc((100% - 32px) / 2);
+    max-width: calc((100% - 32px) / 2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image {
+    flex-basis: calc((100% - 28px) / 2);
+    max-width: calc((100% - 28px) / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    flex-basis: 100%;
+    max-width: initial;
+    margin: 0 -16px 32px;
+  }
+}
